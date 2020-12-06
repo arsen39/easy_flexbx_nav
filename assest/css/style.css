@@ -1,0 +1,53 @@
+body{
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.link{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: inherit;
+}
+
+.page-header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  
+  min-height: 30px;
+  padding: 10px 30px;
+
+  background-color: #262626;
+  color: #fcfdf5;
+}
+
+.head-logo{
+  font-family: 'Nerko One', cursive;
+  font-size: 1.5em;
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.link{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: inherit;
+}
+
+.nav-link{
+  padding: 5px;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.cntct-link{
+  padding: 8px 13px;
+  border: 2px solid #fcfdf5;
+  border-radius: 2px;
+  font-size: 0.6em;
+}
+
+
